@@ -1,8 +1,0 @@
-services:
-  - type: web
-    name: scholar-sync-backend
-    runtime: docker
-    plan: free
-    autoDeploy: true
-    branch: main
-    dockerfilePath: ./Dockerfile
