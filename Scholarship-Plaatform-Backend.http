@@ -1,0 +1,6 @@
+@Scholarship_Plaatform_Backend_HostAddress = http://localhost:5173
+
+GET {{Scholarship_Plaatform_Backend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

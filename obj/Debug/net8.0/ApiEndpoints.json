@@ -1,0 +1,347 @@
+[
+  {
+    "ContainingType": "Scholarship_Plaatform_Backend.Controllers.FeedbackController",
+    "Method": "GetAllFeedbacks",
+    "RelativePath": "api/Feedback",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Scholarship_Plaatform_Backend.Models.Feedback, Scholarship-Plaatform-Backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Scholarship_Plaatform_Backend.Controllers.FeedbackController",
+    "Method": "AddFeedback",
+    "RelativePath": "api/Feedback",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "feedback",
+        "Type": "Scholarship_Plaatform_Backend.Models.Feedback",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Scholarship_Plaatform_Backend.Controllers.FeedbackController",
+    "Method": "DeleteFeedback",
+    "RelativePath": "api/Feedback/{feedbackId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "feedbackId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Scholarship_Plaatform_Backend.Controllers.FeedbackController",
+    "Method": "GetFeedbacksByUserId",
+    "RelativePath": "api/Feedback/user/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Scholarship_Plaatform_Backend.Models.Feedback, Scholarship-Plaatform-Backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Scholarship_Plaatform_Backend.Controllers.AuthenticationController",
+    "Method": "Login",
+    "RelativePath": "api/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Scholarship_Plaatform_Backend.Models.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Scholarship_Plaatform_Backend.Controllers.AuthenticationController",
+    "Method": "Register",
+    "RelativePath": "api/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Scholarship_Plaatform_Backend.Models.User",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Scholarship_Plaatform_Backend.Controllers.ScholarshipController",
+    "Method": "GetAllScholarships",
+    "RelativePath": "api/scholarship",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Scholarship_Plaatform_Backend.Models.Scholarship, Scholarship-Plaatform-Backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Scholarship_Plaatform_Backend.Controllers.ScholarshipController",
+    "Method": "AddScholarship",
+    "RelativePath": "api/scholarship",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "scholarship",
+        "Type": "Scholarship_Plaatform_Backend.Models.Scholarship",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Scholarship_Plaatform_Backend.Controllers.ScholarshipController",
+    "Method": "GetScholarshipById",
+    "RelativePath": "api/scholarship/{scholarshipId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "scholarshipId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Scholarship_Plaatform_Backend.Models.Scholarship",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Scholarship_Plaatform_Backend.Controllers.ScholarshipController",
+    "Method": "UpdateScholarship",
+    "RelativePath": "api/scholarship/{scholarshipId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "scholarshipId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "scholarship",
+        "Type": "Scholarship_Plaatform_Backend.Models.Scholarship",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Scholarship_Plaatform_Backend.Controllers.ScholarshipController",
+    "Method": "DeleteScholarship",
+    "RelativePath": "api/scholarship/{scholarshipId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "scholarshipId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Scholarship_Plaatform_Backend.Controllers.ScholarshipApplicationController",
+    "Method": "GetAllScholarshipApplications",
+    "RelativePath": "api/ScholarshipApplication",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Scholarship_Plaatform_Backend.Models.ScholarshipApplication, Scholarship-Plaatform-Backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Scholarship_Plaatform_Backend.Controllers.ScholarshipApplicationController",
+    "Method": "AddScholarshipApplication",
+    "RelativePath": "api/ScholarshipApplication",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "scholarshipApplication",
+        "Type": "Scholarship_Plaatform_Backend.Models.ScholarshipApplication",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Scholarship_Plaatform_Backend.Controllers.ScholarshipApplicationController",
+    "Method": "GetApplicationCount",
+    "RelativePath": "api/ScholarshipApplication",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "scholarshipId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Scholarship_Plaatform_Backend.Controllers.ScholarshipApplicationController",
+    "Method": "UpdateScholarshipApplication",
+    "RelativePath": "api/ScholarshipApplication/{scholarshipApplicationId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "scholarshipApplicationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "scholarshipApplication",
+        "Type": "Scholarship_Plaatform_Backend.Models.ScholarshipApplication",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Scholarship_Plaatform_Backend.Controllers.ScholarshipApplicationController",
+    "Method": "DeleteScholarshipApplication",
+    "RelativePath": "api/ScholarshipApplication/{scholarshipApplicationId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "scholarshipApplicationId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Scholarship_Plaatform_Backend.Controllers.ScholarshipApplicationController",
+    "Method": "GetScholarshipApplicationByUserId",
+    "RelativePath": "api/ScholarshipApplication/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Scholarship_Plaatform_Backend.Models.ScholarshipApplication",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Scholarship_Plaatform_Backend.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Scholarship_Plaatform_Backend.WeatherForecast, Scholarship-Plaatform-Backend, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
